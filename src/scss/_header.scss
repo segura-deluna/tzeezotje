@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+  }
+
+  &__menu {
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_item {
+    }
+
+    &_link {
+      font-family: 'OpenSans';
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      color: $white;
+    }
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+
+    &_icon {
+      width: 20px;
+      height: 20px;
+      fill: $white;
+      margin-right: 15px;
+    }
+
+    &_text {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 23px;
+      color: $white;
+    }
+  }
+}
