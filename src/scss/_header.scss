@@ -1,46 +1,65 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-top: 55px;
+  margin-bottom: 154px;
   &__logo {
+    max-width: 269px;
+    &_img {
+    }
   }
 
   &__menu {
-    width: 100%;
-    max-width: 340px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    &_item {
-    }
-
-    &_link {
-      font-family: 'OpenSans';
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 25px;
-      color: $white;
-    }
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
   }
 
-  &__search {
-    display: flex;
-    align-items: center;
+  &__phone {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+}
 
-    &_icon {
-      width: 20px;
-      height: 20px;
-      fill: $white;
-      margin-right: 15px;
-    }
+.menu {
+  &__item{
 
-    &_text {
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 23px;
-      color: $white;
+    &:not(:last-child){
+      margin-right: 45px;
     }
+  }
+  &__link {
+    display: block;
+    color: $white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    transition: color .3s linear;
+    &:hover{
+      color: $tan;
+    }
+  }
+}
+
+.phone {
+  cursor: pointer;
+  &__img {
+    width: 24px;
+    height: 24px;
+    fill:$tan;
+    margin-right: 11px;
+  }
+
+  &__number {
+    color: $white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
