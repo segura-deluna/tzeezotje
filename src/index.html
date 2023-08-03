@@ -5,9 +5,15 @@
 <body class='body'>
 
 <section class='hero'>
-  <img src='./img/zeezotje-bg.jpg' alt='' class='hero__bg'>
+  <picture>
+    <source srcset='./img/zeezotje-bg.webp' alt='' class='hero__bg'>
+    <source srcset='./img/zeezotje-bg.avif' alt='' class='hero__bg'>
+    <img src='./img/zeezotje-bg.jpg' alt='' class='hero__bg'>
+  </picture>
+
   <div class='container'>
     @include('./partials/_header.html')
+    @include('./partials/_main.html')
   </div>
 </section>
 

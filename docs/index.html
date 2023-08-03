@@ -17,7 +17,12 @@
 <body class='body'>
 
 <section class='hero'>
-  <img src='./img/zeezotje-bg.jpg' alt='' class='hero__bg'>
+  <picture>
+    <source srcset='./img/zeezotje-bg.webp' alt='' class='hero__bg'>
+    <source srcset='./img/zeezotje-bg.avif' alt='' class='hero__bg'>
+    <img src='./img/zeezotje-bg.jpg' alt='' class='hero__bg'>
+  </picture>
+
   <div class='container'>
     <header class='header'>
   <div class='header__logo'>
@@ -36,6 +41,7 @@
     <div class='phone__number'>+32 9 282 57 25</div>
   </div>
 </header>
+    
   </div>
 </section>
 
