@@ -223,6 +223,10 @@ p {
   align-items: center;
 }
 .main__btn {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
   width: 270px;
   height: 100px;
   background-color: #5565a9;
