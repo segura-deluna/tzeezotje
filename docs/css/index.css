@@ -141,7 +141,6 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-top: 55px;
-  margin-bottom: 154px;
 }
 .header__logo {
   max-width: 269px;
@@ -200,6 +199,7 @@ p {
   width: 100%;
   color: #fff;
   font-family: Poppins;
+  margin: 154px 0 195px;
 }
 .main__subtitle {
   font-variant-numeric: lining-nums proportional-nums;
@@ -258,7 +258,7 @@ p {
 .social__icon {
   width: 48px;
   height: 48px;
-  border: 1px solid;
+  border: 2px solid;
   border-color: #fff;
   border-radius: 100%;
   transition: border-color 0.3s ease-in-out;
@@ -268,4 +268,66 @@ p {
 }
 .social__icon:hover {
   border-color: #D3B47F;
+}
+
+.schedule {
+  background-color: #fff;
+}
+.schedule__wrapper {
+  display: flex;
+  padding: 80px 0 178px;
+}
+.schedule__list {
+  color: #000;
+}
+.schedule__item {
+  color: #000;
+  font-family: Poppins;
+  padding: 20px 0 20px;
+  border-bottom: 1px solid #E7E7E7;
+}
+.schedule__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.schedule__descr {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.schedule__text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.schedule__round {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: #D3B47F;
+}
+.schedule__images {
+  position: relative;
+  width: 471px;
+  height: 502px;
+  border: 2px solid #D3B47F;
+  margin-top: 51px;
+  margin-left: 131px;
+}
+.schedule__img {
+  position: absolute;
+  z-index: 1;
+}
+.schedule__img:nth-child(1) {
+  top: 101px;
+  left: -97px;
+}
+.schedule__img:nth-child(2) {
+  top: -51px;
+  right: -100px;
 }
