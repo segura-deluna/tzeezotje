@@ -1,0 +1,82 @@
+.main {
+  width: 100%;
+  color: $white;
+  font-family: Poppins;
+
+  &__subtitle {
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 1.44px;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    margin-bottom: 40px;
+  }
+
+  &__socials {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+
+  &__btn {
+    width: 270px;
+    height: 100px;
+    background-color: $accent;
+    color: $white;
+    transition: background-color .3s ease-in-out;
+    &:hover{
+      background-color: $accent-hover;
+    }
+  }
+
+  &__social {
+    display: flex;
+  }
+}
+
+.social {
+
+  &__link {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    color: $white;
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    transition: color .3s ease-in-out;
+    &:hover{
+      color: $tan;
+    }
+  }
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+    border: 1px solid;
+    border-color: $white;
+    border-radius: 100%;
+    &:not(:last-child){
+      margin-right: 25px;
+    }
+    transition: border-color .3s ease-in-out;
+    &:hover{
+      border-color: $tan;
+    }
+  }
+}
