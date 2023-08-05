@@ -229,12 +229,12 @@ p {
   line-height: 24px;
   width: 270px;
   height: 100px;
-  background-color: #5565a9;
+  background-color: #3A4574;
   color: #fff;
   transition: background-color 0.3s ease-in-out;
 }
 .main__btn:hover {
-  background-color: #6c81de;
+  background-color: #565e8f;
 }
 .main__social {
   display: flex;
@@ -334,4 +334,83 @@ p {
 .schedule__img:nth-child(2) {
   top: -51px;
   right: -100px;
+}
+
+.service {
+  background-color: #3A4574;
+  padding: 220px 0 220px;
+}
+.service__slider {
+  position: relative;
+  max-width: 1070px;
+}
+.service__slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 780px;
+}
+.service__img {
+  margin-bottom: 34px;
+}
+.service__title {
+  color: #D3B47F;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.service__text {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+.service__suptitle {
+  color: #D3B47F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 5.88px;
+}
+
+.swiper-wrapper {
+  max-width: 1070px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 0;
+  color: #D3B47F;
+}
+
+.swiper-button-prev.swiper-button-disabled {
+  color: #fff;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: 0;
+  color: #D3B47F;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  color: #fff;
+  opacity: 1;
+  cursor: auto;
+  pointer-events: none;
 }

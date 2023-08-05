@@ -1,7 +1,8 @@
-const slider = new Swiper('.slider', {
+const slider = new Swiper('.service__slider', {
   // Optional parameters
-  loop: true,
 
+  slidesPerView: 1,
+  centeredSlides:true,
 
   // Navigation arrows
   navigation: {

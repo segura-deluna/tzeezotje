@@ -2,14 +2,12 @@
 /******/ 	"use strict";
 var __webpack_exports__ = {};
 
-;// CONCATENATED MODULE: ./src/js/modules/test.js
-const sum = (a, b) => {
-  return a * b;
-};
 ;// CONCATENATED MODULE: ./src/js/modules/slider.js
-const slider = new Swiper('.slider', {
+const slider = new Swiper('.service__slider', {
   // Optional parameters
-  loop: true,
+
+  slidesPerView: 1,
+  centeredSlides: true,
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
@@ -18,7 +16,5 @@ const slider = new Swiper('.slider', {
 });
 ;// CONCATENATED MODULE: ./src/js/index.js
 
-
-console.log(sum(20, 10));
 /******/ })()
 ;

@@ -1,0 +1,87 @@
+
+
+.service {
+  background-color: $accent;
+  padding: 220px 0 220px;
+
+  &__slider {
+    position: relative;
+    max-width: 1070px;
+  }
+
+  &__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 780px;
+    //margin: 0 auto;
+  }
+
+  &__img{
+    margin-bottom: 34px;
+  }
+
+  &__title{
+    color: $tan;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  &__text{
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__suptitle{
+    color: $tan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 5.88px;
+  }
+}
+
+.swiper-wrapper {
+  max-width: 1070px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 0;
+  color: $tan;
+}
+
+.swiper-button-prev.swiper-button-disabled {
+  color: $white;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: 0;
+  color: $tan;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  color: $white;
+  opacity: 1;
+  cursor: auto;
+  pointer-events: none;
+}
