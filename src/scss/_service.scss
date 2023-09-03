@@ -4,6 +4,10 @@
   background-color: $accent;
   padding: 220px 0 220px;
 
+  @media (max-width: 998px) {
+    padding: 100px 0;
+  }
+
   &__slider {
     position: relative;
     max-width: 1070px;
@@ -15,7 +19,6 @@
     justify-content: center;
     align-items: center;
     max-width: 780px;
-    //margin: 0 auto;
   }
 
   &__img{
@@ -79,9 +82,18 @@
   color: $tan;
 }
 
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
   color: $white;
   opacity: 1;
   cursor: auto;
   pointer-events: none;
+}
+
+@media (max-width: 998px) {
+  .swiper-button-next,
+  .swiper-button-prev,
+  .swiper-button-disabled{
+    display: none;
+  }
 }

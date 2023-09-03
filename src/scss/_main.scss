@@ -4,6 +4,10 @@
   font-family: Poppins;
   margin: 154px 0 195px;
 
+  @media(max-width: 998px){
+    margin: 120px 0 135px;
+  }
+
   &__subtitle {
     font-variant-numeric: lining-nums proportional-nums;
     font-size: 24px;

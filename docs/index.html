@@ -28,8 +28,8 @@
     <img src='./img/logo-header.png' alt='' class='header__logo_img'>
   </div>
   <ul class='header__menu menu list-reset'>
-    <li class='menu__item'><a href='' class='menu__link'>À la carte</a></li>
-    <li class='menu__item'><a href='' class='menu__link'>Wijnkaart</a></li>
+    <li class='menu__item'><a href='#carte' class='menu__link'>À la carte</a></li>
+    <li class='menu__item'><a href='#wincart' class='menu__link'>Wijnkaart</a></li>
     <li class='menu__item'><a href='' class='menu__link'>Lunchmenu</a></li>
     <li class='menu__item'><a href='' class='menu__link'>Contact</a></li>
   </ul>
@@ -39,6 +39,72 @@
     </svg>
     <div class='phone__number'>+32 9 282 57 25</div>
   </div>
+<!-- Mobile menu -->
+  <div class="header-mobile__burger burger">
+    <div class="burger__button">
+      <div class="burger__button-icon"></div>
+    </div>
+
+    <div class="burger__menu">
+      <div class="burger__menu-content">
+        <ul class="burger__menu-list">
+          <li class="burger__menu-item">
+            <a href="procedures.html" class="burger__menu-link">Процедура</a>
+          </li>
+          <li class="burger__menu-item">
+            <a href="nomination.html" class="burger__menu-link">Нормативы</a>
+          </li>
+          <li class="burger__menu-item">
+            <div class="burger__menu-link dropdown">Архив мудрости</div>
+            <ul class="burger__menu-tooltip">
+              <li class="burger__menu-tooltip-item">
+                <a href="" class="burger__menu-tooltip-link">Saddelesore 1000</a>
+              </li>
+              <li class="burger__menu-tooltip-item">
+                <a href="archive.html" class="burger__menu-tooltip-link">Bunburner 1500</a>
+              </li>
+              <li class="burger__menu-tooltip-item">
+                <a href="" class="burger__menu-tooltip-link">Какой-то длинный заголовок</a>
+              </li>
+            </ul>
+          </li>
+          <li class="burger__menu-item">
+            <a href="news.html" class="burger__menu-link">Новости</a>
+          </li>
+          <li class="burger__menu-item">
+            <a href="merch.html" class="burger__menu-link">Мерч</a>
+          </li>
+          <li class="burger__menu-item">
+            <button class="burger__menu-link" data-modal="input-modal">Войти в профиль</button>
+          </li>
+        </ul>
+
+        <div class="burger__menu-social">
+          <a href="" class="burger__menu-social-link">
+            <img src="img/vk.svg" alt="vk">
+          </a>
+          <a href="" class="burger__menu-social-link">
+            <img src="img/twitter.svg" alt="twitter">
+          </a>
+          <a href="" class="burger__menu-social-link">
+            <img src="img/facebook.svg" alt="facebook">
+          </a>
+          <a href="" class="burger__menu-social-link">
+            <img src="img/livejournal.svg" alt="livejournal">
+          </a>
+          <a href="" class="burger__menu-social-link">
+            <img src="img/mailru.svg" alt="mailru">
+          </a>
+          <a href="" class="burger__menu-social-link">
+            <img src="img/odnoglazniki.svg" alt="odnoglazniki">
+          </a>
+        </div>
+
+        <a href="tel:+79257920181" class="burger__menu-phone">+7 925 792-01-81</a>
+      </div>
+    </div>
+  </div>
+
 </header>
     <section class='main'>
   <p class='main__subtitle'>OPEN EVERYDAY 6AM - 9PM</p>
@@ -66,7 +132,7 @@
 
 <section class='schedule'>
   <div class='container'>
-    <div class='schedule__wrapper'>
+    <div class='schedule__wrapper' id='carte'>
   <ul class='schedule__list'>
     <li class='schedule__item'>
       <h2 class='schedule__title'>Woensdag 12/01</h2>
@@ -137,7 +203,7 @@
 
 <section class='service'>
   <div class='container'>
-    <div class='swiper service__slider'>
+    <div class='swiper service__slider' id='wincart'>
   <div class='swiper-wrapper'>
     <!-- Slides -->
     <div class='swiper-slide'>
